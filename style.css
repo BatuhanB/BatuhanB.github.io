@@ -53,38 +53,57 @@ h2 {
 
 .countdown-el span {
     font-size: 1.3rem;
-}
+}   
 @media (max-width: 699px){
     h1{
+        color: rgb(212, 216, 0);
         text-align: center;
         justify-content: center;
     }
     h2{
+        color: rgb(255, 248, 151);
         text-align: center;
         justify-content: center; 
     }
+    
 }
 @media (max-width:420px){
     h1{
+        color: rgb(212, 216, 0);
         text-align: center;
         justify-content: center;
         font-size: 4rem;
     }
     h2{
+        color: rgb(255, 248, 151);
         text-align: center;
         justify-content: center; 
         font-size: 4rem;
+    }
+    .big-text {
+        font-weight: bold;
+        font-size: 5rem;
+        line-height: 1;
+        margin: 1rem 2rem;
     }
 }
 @media (max-width:318px){
     h1{
+        color: rgb(212, 216, 0);
         text-align: center;
         justify-content: center;
         font-size: 3.5rem;
     }
     h2{
+        color: rgb(255, 248, 151);
         text-align: center;
         justify-content: center; 
         font-size: 3.5rem;
+    }
+    .big-text {
+        font-weight: bold;
+        font-size: 4rem;
+        line-height: 1;
+        margin: 1rem 2rem;
     }
 }
