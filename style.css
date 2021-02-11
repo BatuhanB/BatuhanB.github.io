@@ -76,7 +76,7 @@ h2 {
         font-size: 4rem;
     }
 }
-@media (max-width:299px){
+@media (max-width:318px){
     h1{
         text-align: center;
         justify-content: center;
